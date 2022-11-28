@@ -193,11 +193,11 @@ header div.container {
 }
 
 /* obout-section */
-.about-p{
+.about-p {
   margin: 0px;
 }
-.about-img img{
-  max-width: 70%;
+.about-img img {
+  max-width: 60%;
 }
 
 .about-us .nav-pills {
@@ -532,10 +532,6 @@ footer {
   }
 
   /* about-section */
-  .about-img img{
-    max-width: 100%;
-  }
-
 
   .nav-pills .nav-link {
     font-size: 16px;
@@ -580,6 +576,9 @@ footer {
     margin: auto;
     font-size: 19px;
   }
+  .about-img img {
+    max-width: 100%;
+  }
 
   /* banner */
 
@@ -597,7 +596,6 @@ footer {
 
   /* about-section */
 
-
   .nav-pills .nav-link {
     font-size: 12px;
   }
@@ -614,8 +612,6 @@ footer {
 }
 
 @media only screen and (max-width: 350px) {
-  
-  
   .common-h {
     font-size: 25px;
     line-height: 40px;
@@ -663,5 +659,4 @@ footer {
   .contact-p {
     font-size: 12px;
   }
-  
 }
