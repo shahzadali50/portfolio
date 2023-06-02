@@ -47,7 +47,7 @@ button {
   box-shadow: none;
 }
 
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
   width: 6px;
 }
 
@@ -56,8 +56,8 @@ button {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgb(247, 231, 4);
-}
+  background: rgb(0, 0, 0);
+} */
 
 @font-face {
   font-family: "Medium";
@@ -197,7 +197,8 @@ header div.container {
   margin: 0px;
 }
 .about-img img {
-  max-width: 60%;
+  width: 450px;
+  margin: 20px 0px;
 }
 
 .about-us .nav-pills {
@@ -431,7 +432,7 @@ footer {
     font-size: 40px;
   }
 
-  /* .header  */
+  /* .header */
   .header a h3 {
     margin-left: 33px;
   }
@@ -575,9 +576,6 @@ footer {
   .header a h3 {
     margin: auto;
     font-size: 19px;
-  }
-  .about-img img {
-    max-width: 100%;
   }
 
   /* banner */
