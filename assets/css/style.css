@@ -5,7 +5,8 @@
   padding: 0px 0px;
   box-sizing: border-box;
 }
-html{
+
+html {
   scroll-behavior: smooth;
 }
 
@@ -51,15 +52,15 @@ button {
 }
 
 /* ::-webkit-scrollbar {
-  width: 6px;
+width: 6px;
 }
 
 ::-webkit-scrollbar-track {
-  background: rgb(1, 101, 242);
+background: rgb(1, 101, 242);
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgb(0, 0, 0);
+background: rgb(0, 0, 0);
 } */
 
 @font-face {
@@ -199,6 +200,7 @@ header div.container {
 .about-p {
   margin: 0px;
 }
+
 .about-img img {
   width: 450px;
   margin: 20px 0px;
